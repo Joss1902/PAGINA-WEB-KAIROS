@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kairos 3.7</title>
+  <link rel="stylesheet" href="estilos.css" />
+  <link rel="shortcut icon" href=".Resources/KAIROS.png" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <div class="logo">Kairos3.7</div>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <nav id="nav">
+      <a href="#inicio">Inicio</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#productos">Productos</a>
+      <a href="./contacto.html">Contacto</a>
+    </nav>
+  </header>
+  <section class="lema" id="inicio">
+    <h1>Todo es posible si lo puedes creer</h1>
+  </section>
+
+  <section class="sobre_nosotros" id="nosotros">
+    <h2>¿Quiénes Somos?</h2>
+    <p>
+      En Kairos3.7 nos dedicamos principalmente a la venta de productos de belleza y cuidado personal,
+      aunque también trabajamos con una gran variedad de artículos. Nuestro modelo de negocio incluye ventas al mayor y
+      al detal,
+      y contamos con varias tiendas distribuidas en diferentes zonas de la ciudad.
+    </p>
+    <br>
+    <br>
+    <br>
+    <div class="logo1">
+      <img class="Imagen_logo" src="./Resources/portada3.png" alt="Logo_Kairos" />
+    </div>
+  </section>
+
+  <section class="productos" id="productos">
+    <h2>Marcas con las que trabajamos</h2>
+
+    <div class="product-grid">
+      <div class="producto">
+        <img src="./Resources/Avon-Logo.png" alt="Aceite esencial" />
+        <h3>Avon</h3>
+        <p>Cosmeticos y cuidado de la piel.</p>
+      </div>
+      <div class="producto">
+        <img src="./Resources/Novaventa.png" alt="Jabón artesanal" />
+        <h3>Novaventa</h3>
+        <p>Lo mejor de cada marca.</p>
+      </div>
+      <div class="producto">
+        <img src="./Resources/lvel.jpg" alt="Cremas naturales" />
+        <h3>L'vel</h3>
+        <p>Cuidado personal.</p>
+      </div>
+      <div class="producto">
+        <img src="./Resources/natura2.png" alt="Cremas naturales" />
+        <h3>Natura</h3>
+        <p>Para los amantes de lo clasico.</p>
+      </div>
+      <div class="producto">
+        <img src="./Resources/logo-cyzone.png" alt="Cremas naturales" />
+        <h3>Cyzone</h3>
+        <p>Un poco diferente.</p>
+      </div>
+      <div class="producto">
+        <img src="./Resources/esika.png" alt="Cremas naturales" />
+        <h3>Esika</h3>
+        <p>Uno para cada persona</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="productos2">
+    <div class="mapa">
+      <h1>¿Donde estamos ubicados?</h1>
+      <br>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d448.85182789978614!2d-69.31540279786174!3d10.06524016419735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sve!4v1761837290678!5m2!1sen!2sve"></iframe>
+    </div>
+  </section>
+
+
+
+
+  <footer class="site-footer">
+  <div class="footer-columns">
+    <div class="footer-column">
+      <h4>Kairos 3.7 Con todo lo mejor para ti.</h4>
+      <br>
+    </div>
+    <div class="footer-column">
+      <h4>Info</h4>
+      <br>
+      <ul>
+        <li><a href="#nosotros">Sobre nosotros</a></li>
+        <li><a href="./contacto.html">Contacto</a></li>
+        <li><a href="#productos">Productos</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>Equipo de desarrollo</h4>
+      <br>
+      <ul> 
+          <p>
+          Franklin Mendoza 32.785.174 <br>
+          Jobthziel Mujica 32.199.868<br>
+          Maywer Sivira 30.125.299<br>
+        </p>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="social-media">
+      <h4>redes</h4>
+      <a href="#"><i class="fab fa-twitter"> twitter</i></a>
+      <a href="https://www.instagram.com/kairosoficial4/?hl=en" target="_blank"><i class="fab fa-instagram">insta</i></a>
+      <a href="#"><i class="fab fa-facebook-f">facebook</i></a>
+    </div>
+  </div>
+</footer>
+
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById("nav");
+      nav.classList.toggle("active");
+    }
+  </script>
+
+
+</body>
+
+</html>
