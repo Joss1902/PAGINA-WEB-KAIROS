@@ -121,9 +121,10 @@ section {
   max-width: 120vh;
   margin: auto;
   font-size: 1.4rem;
-  height: 155vh !important;
+  height: 185vh !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
-
 
 .productos2 {
   max-width: 1000px;
@@ -140,8 +141,13 @@ section {
 
 .sobre_nosotros p {
   font-size: 1.5rem !important;
+  justify-content: center !important;
+  align-items: center !important;
 }
 
+.sobre_nosotros2 p {
+  font-size: 1.5rem !important;
+}
 .productos h2 {
   text-align: center;
   margin-bottom: 1rem;
@@ -152,6 +158,16 @@ section {
 }
 
 .sobre_nosotros h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #33212c;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  border-bottom: 5px solid #FF3F7F;
+  padding-bottom: 20px;
+}
+.sobre_nosotros2 h2 {
   text-align: center;
   margin-bottom: 1rem;
   color: #33212c;
