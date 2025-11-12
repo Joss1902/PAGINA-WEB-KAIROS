@@ -367,8 +367,8 @@ h3 {
 }
 
 .site-footer {
-  background-color: #000;
-  color: #fff;
+  background-color: #f7a9d9;
+  color: #8b435f;
   padding: 40px 20px;
   font-family: Arial, sans-serif;
   height: 60vh;
@@ -548,5 +548,17 @@ h3 {
     font-family: Arial, sans-serif;
     height: 200vh;
     bottom: 0;
+  }
+}
+
+@media (max-width: 2000px) {
+  .sobre_nosotros,
+  .contact {
+    max-width: 120vh;
+    margin: auto;
+    font-size: 1.4rem;
+    height: 135vh !important;
+    align-items: center !important;
+    justify-content: center !important;
   }
 }
