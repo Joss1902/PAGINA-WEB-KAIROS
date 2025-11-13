@@ -180,12 +180,12 @@ section {
   font-weight: bold;
 }
 .producto {
-  background: #785b5b;
+  background: #ff9985;
   padding: 1rem;
   border-radius: 10px;
   text-align: center;
   transition: transform 0.3s;
-  color: #ccc;
+  color: #62109F;
   opacity: 0.9;
 }
 .producto2 {
