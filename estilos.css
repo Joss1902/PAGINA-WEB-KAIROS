@@ -443,6 +443,7 @@ h3 {
   align-items: center !important;
   justify-content: center !important;
   height: 200vh !important;
+  max-height: 200vh !important;
 }
 @media (max-width: 1300px) {
   .lema h1 {
